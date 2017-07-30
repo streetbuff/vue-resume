@@ -7,7 +7,7 @@ Online Address: [Vue Resume](http://resume.ido321.com/).
 You can run it in your browser for generating owner resume, and follows following steps:
 
 ```
-git clone https://github.com/dwqs/vue-resume.git && cd vue-resume
+git clone https://github.com/streetbuff/vue-resume.git && cd vue-resume
 
 //in current terminal
 npm i
@@ -36,12 +36,12 @@ You can find it in `./server/json/` . If you modify it, you must restart the nod
 
 ### Others
 
-I used Font Awesome in my project, so, if you want to change the icon, visit [FontAwesome CheatsSheet](http://fontawesome.io/cheatsheet/) 
+I used Font Awesome in my project, so, if you want to change the icon, visit [FontAwesome CheatsSheet](http://fontawesome.io/cheatsheet/)
 to find the icon you like.
 
 Besides, you should change the sites logo and replace the avatar, there are in `./client/static/images/`.
 You can put your corresponding resources in it. Meanwhile, you should change the static resource path,
-and rerun the command `npm run dev` and `gulp dev`. 
+and rerun the command `npm run dev` and `gulp dev`.
 
 Rerun `gulp clean && gulp dev` when images were loaded error.
 
