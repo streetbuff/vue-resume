@@ -1,7 +1,7 @@
 <template>
     <div class="resume-loading" v-show="show">
-        <div class="loading-icon">Loading...</div>
-        <span>Loading...</span>
+        <div class="loading-icon">正在加载...</div>
+        <span>正在拼命加载中...</span>
     </div>
 </template>
 

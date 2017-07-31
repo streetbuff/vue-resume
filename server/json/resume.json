@@ -1,132 +1,182 @@
 {
-  "resumeTitle": "Jeffrey Swanson",
-  "jobTitle":"Software Engineer",
-  "name":"Jeff Swanson",
-  "avatar":"/images/jeff-head.png",
-  "email":"swanie42@gmail.com",
-  "github":"https://github.com/swanie42",
-  "blog":"https://linkedin.com/in/jeff-swanson-56044128",
-  "wisdom":"Love what you do, do it all the time",
+  "resumeTitle": "袁康 - 个人简历",
+  "jobTitle":"前端攻城狮",
+  "name":"袁康",
+  "avatar":"/images/pomy.jpg",
+  "email":"pomysky@gmail.com",
+  "github":"https://github.com/dwqs",
+  "blog":"https://github.com/dwqs/blog",
+  "weibo":"http://weibo.com/rebgin",
+  "weiboNickname":"会飞的Pikachu",
+  "wisdom":"Follow Heart, Try Everything",
   "social":{
-
+    "微信":"yk461147874",
+    "QQ":461147874
   },
   "jobs":{
+    "职位":"前端开发工程师",
+    "地点":"北杭上深",
+    "状态":"目前在职"
   },
-  "frontend":{
-    "HTML/CSS": 90,
-    "JavaScript": 90,
-    "Angular": 85,
-    "jQuery": 75,
-    "Express.js": 65,
-    "Angular 4": 55,
+  "skills":{
+    "JavaScript": 68,
+    "HTML/CSS": 62,
+    "React": 55,
+    "ReactNative": 50,
     "Vue": 55,
-    "React": 20
+    "Node.js": 35
   },
-  "backend":{
-    "Mongodb": 80,
-    "Node.js": 75,
-    "Mongoose": 70,
-    "S3": 60,
-    "Google Cloud": 35,
-    "AWS": 35,
-    "EC2": 30,
-    "Linux": 30
-  },
-  "mobile":{
-    "Proto.io": 85,
-    "SketchApp": 80,
-    "Ionic": 75,
-    "Xcode": 60,
-    "Swift": 50
-  },
-  "digital":{
-    "Photoshop": 90,
-    "Illustrator": 90,
-    "After Effects": 80,
-    "Premiere Pro": 80,
-    "Indesign": 75,
-    "Audition": 50
-  },
-  "evaluation":"Problem solving buff offering years of experience in the full software development lifecycle – from concept through delivery",
+  "evaluation":"热衷和乐于钻研前端技术,具备良好的学习能力、英语阅读和翻译能力。做事认真,工作态度负责,具备团队合作精神。喜欢阅读、跑步和球类运动",
   "education":{
-    "time":"May 2009",
-    "school":"University of Colorado",
-    "type":"Bachelors in Communication"
+    "time":"2012.09-2016.07",
+    "school":"广州中医药大学",
+    "major":"医学信息工程专业",
+    "type":"本科"
   },
   "works":[
     {
-      "company":"Readyboard",
-      "time":"Present",
-      "start": "Sep 2016",
-      "title":"Louisville, CO",
+      "company":"美团",
+      "time":"2016.07 - 至今",
+      "title":"前端开发工程师",
       "projects":[
         {
-          "name":"Software Engineer",
-          "description":
-            "Assisting and Leading in the design and development of an enterprise SaaS application for a well funded startup in the field services industry",
-          "highlights": [
-            "Lead developer and designer for the Readyboard’s iOS application, reducing average work time by 50%",
-            "Created a module that extracts dynamically rendered data and configures it to PDF or CSV, reducing average work time from 10 hours to 1 hour",
-            "Designed and developed the image CRUD, frontend and backend, storing files in AWS s3",
-            "Currently in charge of maintenance, feature development and dev ops for both the web and mobile app"
+          "name":"聊天文件",
+          "description":[
+            "集中展示Web端IM中发送的文件",
+            "提供文件的下载/预览/多选等功能",
+            "基于视觉稿和交互稿，使用React+Redux完成相关界面和功能开发"
+          ]
+        },
+        {
+          "name":"公共文件前台/后台前台",
+          "description":[
+            "为企业用户提供的文件管理功能",
+            "犀牛云盘的浓缩版",
+            "权限访问管理"
+          ]
+        },
+        {
+          "name":"审批",
+          "description":[
+            "为用户提供常见的审批申请类型管理",
+            "独立完成审批发起/查看/流程管理等功能",
+            "使用React Native进行移动端开发, 使用Redux进行应用状态管理"
+          ]
+        },
+        {
+          "name":"日志",
+          "description":[
+            "为用户提供日报管理",
+            "提供日志创建/查看等功能",
+            "使用Vue进行移动端开发, 使用Vuex进行应用状态管理"
           ]
         }
       ]
     },
     {
-      "company":"STREETBUFF",
-      "time":"Sep 2016",
-      "start": "Sep 2014",
-      "title":"Longmont, CO",
+      "company":"美团",
+      "time":"2015.07 - 2016.07",
+      "title":"前端开发工程师(实习)",
       "projects":[
         {
-          "name":"Co-founder",
-          "description":
-            "Client-side and Server-side design, development and marketing for consumer facing mobile and web application created for the travel industry.",
-          "highlights": [
-            "Built the backend infrastructure in Node, Mongo and Google Cloud including our own 2dSphere indexed location and city database.",
-            "Assisted in the development of the V2 mobile app in Swift/iOS and V2 web app in Angular 4.",
-            "Ran a team of four developers, utilizing Agile methods, from requirements definition through successful deployment.",
-            "Managed a team of 10 marketing interns in NYC who helped launch successful marketing campaigns in Manhattan including guerilla marketing, print and web advertising."
+          "name":"犀牛云盘",
+          "description":[
+            "使用jQuery+Handlebars产品一期开发, 提供文件上传/删除/下载/文件夹创建/组创建/人员管理等功能",
+            "使用Flux+React进行产品二期开发, 提供组置顶和重命名/文件转移/预览/分享/权限管理等功能",
+            "使用React+Redux进行产品三期开发, 提供文件多选/列表排序/视图切换等功能"
+          ]
+        },
+        {
+          "name":"群空间/我的文件",
+          "description":[
+            "将犀牛云盘和Web端IM进行集成",
+            "跨团队合作",
+            "基于视觉稿和交互稿，使用React+Redux完成相关界面和功能开发"
           ]
         }
-      ]
-    }
-  ],
-  "summary":[
-    {
-      "paragraph":"Problem solving buff offering years of experience in the full software development lifecycle – from concept through delivery.",
-      "bullets":[
-        "My strong sales background helps me keep my focus on building quality products with great user experiences.",
-        "My military experience taught me to work smart, to put mission first and to never give up."
       ]
     }
   ],
   "projects":[
     {
-      "company":"CROCS CASINO RESORT",
-      "time":"Oct 2014",
-      "start":"Mar 2012",
-      "title":"Jaco, Costa Rica",
-      "projects":[
-        {
-          "name":"Digital Marketing Lead",
-          "description":
-            "In charge of all marketing including print and web.",
-          "highlights": [
-            "Designed the casino’s website and collaborated with a team of developers throughout the full development process.",
-            "Created and published an animated commercial that played in the terminal of the San Jose Airport.",
-            "Designed roadside billboards that were placed along the San Jose Highway."
-          ]
-        }
+      "name": "Vue Resume",
+      "time":"2016.11 - 2016.11",
+      "source":"https://github.com/dwqs/vue-resume",
+      "online":"http://resume.ido321.com",
+      "description":[
+        "纯粹造轮子, 基于Vue+Node.js的简历生成器",
+        "使用Node.js读取JSON数据, 并吐露模板, 前端使用Vue生成页面",
+        "使用Webpack进行打包, Gulp改进工作流"
+      ]
+    },
+    {
+      "name": "Tech-Read",
+      "time":"2016.04 - 2016-05",
+      "source":"https://github.com/dwqs/tech-read",
+      "online":"http://tech-read.ido321.com",
+      "description":[
+        "使用request库进行网络请求, cheerio库解析DOM树, Node.js提供前端API",
+        "前端采用React进行组件化开发, 使用Flux进行数据流管理, localStorage进行浏览器本地存储"
+      ]
+    },
+    {
+      "name":"Flyicon",
+      "time":"2016.03 - 2016.03",
+      "source":"https://github.com/Flyicon",
+      "online":"http://dwqs.github.io/Flyicon/",
+      "description":[
+        "用pure css实现的一些小图标"
+      ]
+    },
+    {
+      "name": "Front-end Developer HandBook",
+      "time":"2015.10 - 2015.12",
+      "source":"https://github.com/dwqs/fedHandlebook",
+      "online":"https://dwqs.gitbooks.io/frontenddevhandbook/content/",
+      "description":[
+        "翻译的前端开发者手册",
+        "使用gitbooks生成在线电子书"
+      ]
+    },
+    {
+      "name":"其它",
+      "time":"2014.10 - 至今",
+      "source":"",
+      "online":"",
+      "description":[{
+            "text": "替换 github「辣眼睛」的主题色",
+            "link": "https://github.com/dwqs/infine",
+            "title": "infine"
+          },{
+              "text": "用于前端项目脚手架的CLI工具",
+              "link": "https://github.com/dwqs/chare",
+              "title": "chare"
+          },{
+              "text": "github 搜索的 chrome 扩展",
+              "link": "https://github.com/dwqs/orbithub",
+              "title": "orbithub"
+          },{
+              "text": "个简单的Relay随机密码生成器",
+              "link": "https://github.com/dwqs/reproto",
+              "title": "reproto"
+          },{
+              "text": "基于React Native的图片预览组件",
+              "link": "https://github.com/dwqs/react-native-image-viewer",
+              "title": "ImageViewer"
+          },{
+              "text": "基于Vue.js的Toast组件",
+              "link": "https://github.com/dwqs/vue-toast",
+              "title": "vue-toast"
+          }
       ]
     }
-
   ],
   "skillsDesc":[
-    "2 years in Costa Rica surfing and learning Spanish with my family",
-    "4 years in sales and sales management",
-    "5 years as a freelance Animator, web designer, digital and print artist",
-    "1 year in Baghdad Iraq with the Army"
+    "熟悉HTML/CSS, 能编写语义化的HTML/CSS, 完成较复杂的布局",
+    "熟悉原生JavaScript(ES6)/DOM/BOM的使用, 能脱离jQuery等类库进行编码",
+    "拥有React/Vue/React Native等前端框架的项目实践经验, 能运用其编写SPA应用",
+    "能够使用Node.js API/Koa搭建简单的后端程序, 用于渲染模板及提供RESTful API",
+    "日常使用Webpack/Gulp/Git/Markdown改进工作流, 掌握常见的Linux命令",
+    "了解Bash/HTML5/CSS3/HTTP协议/Less等预处理工具, 有Nginx建站和反向代理使用经验"
   ]
 }

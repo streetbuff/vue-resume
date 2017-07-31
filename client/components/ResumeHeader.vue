@@ -5,17 +5,20 @@
         </figure>
         <address class="contact">
             <ul>
-              <li class="tel" id='tel'>
-                <a href="#">917-272-1344</a>
-              </li>
+                <li class="tel" id='tel'>
+                    <a href="#">18800169213</a>
+                </li>
                 <li class="email">
                     <a :href="'mailto:'+data.email">{{data.email}}</a>
                 </li>
                 <li class="github">
                     <a :href="data.github" target="_blank">{{data.github}}</a>
                 </li>
-                <li class="linkedin">
+                <li class="blog">
                     <a :href="data.blog" target="_blank">{{data.blog}}</a>
+                </li>
+                <li class="weibo" id="weibo">
+                    <a :href="data.weibo" target="_blank">{{data.weiboNickname}}</a>
                 </li>
             </ul>
         </address>
@@ -64,7 +67,7 @@
                 color: rgba(255,255,255,0.9);
             }
             &.tel:before{
-                content: "\f098";
+                content: "\f095";
             }
             &.email:before{
                 content: "\f0e0";
@@ -72,15 +75,15 @@
             &.github:before{
                 content: "\f092";
             }
-            &.linkedin:before{
-                content: "\f08c";
+            &.blog:before{
+                content: "\f09e";
             }
             &.weibo:before{
                 content: "\f18a";
             }
 
             &#tel{
-                // display:none
+                display:none
             }
         }
 
@@ -97,14 +100,13 @@
             align-items: center;
             .user-name{
                 flex: 1;
-                font-weight: bold;
-                font-size: 30px;
+                font-size: 72px;
                 color: rgba(255,255,255,0.8);
                 margin: 5px 0;
             }
             .job-title{
                 flex: 1;
-                font-size: 26px;
+                font-size: 36px;
                 color: rgba(255,255,255,0.8);
                 margin: 5px 0;
             }

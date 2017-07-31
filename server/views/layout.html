@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>
-        {% block title %} Jeff's Resume {% endblock %}
+        {% block title %}
+            Pomy's Reusme
+        {% endblock %}
     </title>
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no">
     <meta name="description" content="onlie resume">
     <meta name="keywords" content="resume,vue">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/jeff-head.png"> {% block css %} {% endblock %}
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/pomy.jpg">
+    {% block css %}
+    {% endblock %}
     <style type="text/css">
         .resume-loading {
             display: inline-block;
@@ -25,7 +28,6 @@
             z-index: 11;
             background-color: #f0f2f1;
         }
-
         @keyframes loadingCircle {
             0% {
                 transform-origin: 50% 50%;
@@ -36,30 +38,27 @@
                 transform: rotate(360deg);
             }
         }
-
-        .resume-loading:before {
+        .resume-loading:before{
             /*垂直居中*/
-            content: '';
-            display: inline-block;
-            vertical-align: middle;
-            font-size: 0;
-            width: 0;
-            height: 100%;
+             content: '';
+             display: inline-block;
+             vertical-align: middle;
+             font-size: 0;
+             width: 0;
+             height: 100%;
         }
-
-        .loading-icon {
+        .loading-icon{
             /**steps:http://www.cnblogs.com/aaronjs/p/4642015.html**/
             animation: 0.85s loadingCircle steps(8) infinite;
             width: 16px;
             height: 16px;
-            background-image: url(/images/loading.png);
+            background-image:url(/images/loading.png);
             background-size: cover;
             position: relative;
             display: inline-block;
             vertical-align: middle;
         }
-
-        .resume-loading span {
+        .resume-loading span{
             vertical-align: middle;
             position: relative;
             display: inline-block;
@@ -69,17 +68,17 @@
         }
     </style>
 </head>
-
 <body>
-    <div id="resume-vue">
-        <div class="resume-loading">
-            <div class="loading-icon">Loading...</div>
-            <span>Loading...</span>
-        </div>
-        {% block content %} {% endblock %}
+<div id="resume-vue">
+    <div class="resume-loading">
+        <div class="loading-icon">正在加载...</div>
+        <span>正在拼命加载中...</span>
     </div>
-    <!--<script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>-->
-    {% block script %} {% endblock %}
+    {% block content %}
+    {% endblock %}
+</div>
+<!--<script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>-->
+{% block script %}
+{% endblock %}
 </body>
-
 </html>
